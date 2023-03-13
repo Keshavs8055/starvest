@@ -11,7 +11,7 @@ const Blog = () => {
         <h4 className={`${style["text-muted"]}`}>Mar 01, 2023</h4> */}
       <AuthorDetail />
       <div className={`${style["main"]}`}>
-        <div className={`${style["content"]}`}>
+        <div>
           <h5>
             5 common mistakes by first time startup owner and how to avoid them{" "}
           </h5>
