@@ -1,0 +1,17 @@
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.author img {
+  max-width: 60px;
+  margin-right: 1%;
+}
+.author h3 {
+  font-weight: 400;
+  margin-inline: 1%;
+  color: #000000;
+  display: inline-block;
+  min-width: max-content;
+}

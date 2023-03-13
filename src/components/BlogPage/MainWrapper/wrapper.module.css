@@ -1,0 +1,20 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  max-width: 1800px;
+  margin: auto;
+}
+.wrapper .sidebar-wrapper {
+  border-left: 1px solid #aeaeae;
+  width: 380px;
+}
+
+@media screen and (max-width: 750px) {
+  .wrapper {
+    display: block;
+  }
+  .wrapper .sidebar-wrapper {
+    display: none;
+    width: 0;
+  }
+}
