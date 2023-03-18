@@ -18,7 +18,13 @@ const BlogHeader = () => {
           />
           <input type="text" />
         </div>
-        <div></div>
+        <div className={`${style["mobile-search"]}`}>
+          <img
+            src="../../../../assests/blog/search.png"
+            alt="Search Icon"
+            className={`${style["search-box-icon"]}`}
+          />
+        </div>
         <div className={`${style["right-nav"]}`}>
           <div className={`${style["right-nav-item-1"]}`}>
             <img

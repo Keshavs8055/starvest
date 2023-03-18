@@ -25,7 +25,9 @@
   grid-gap: 6px;
   justify-content: space-evenly;
 }
-
+.main h5 {
+  font-size: 2.5vw;
+}
 .blog-container .main h2 {
   font-weight: 300;
 }
@@ -57,5 +59,11 @@
   .main img {
     width: auto;
     max-width: 25vw;
+  }
+  .main h2 {
+    display: none;
+  }
+  .main h5 {
+    font-size: 4.5vw;
   }
 }

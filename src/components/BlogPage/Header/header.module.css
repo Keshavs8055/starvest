@@ -38,7 +38,9 @@
   padding: 3%;
   background-color: transparent;
 }
-
+.mobile-search {
+  width: 0;
+}
 /* RIGHT NAV */
 .right-nav {
   display: grid;
@@ -75,11 +77,26 @@
   justify-content: center;
   align-items: center;
 }
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 750px) {
   .nav-bar {
-    grid-template-columns: 12% 25% 1fr 3fr;
+    grid-template-columns: 20% 1fr max-content;
+    align-items: center;
+    padding: 1% 0;
   }
+
   .right-nav-item-1 h4 {
-    display: nonex;
+    display: none;
+  }
+  .search-box {
+    display: none;
+  }
+
+  .mobile-search {
+    text-align: right;
+    width: auto;
+    padding: 0 1%;
+  }
+  .mobile-search img {
+    width: 25px;
   }
 }
